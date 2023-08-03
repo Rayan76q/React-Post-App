@@ -1,0 +1,55 @@
+
+
+
+.navbar {
+    background: blueviolet;
+    padding: 20px 0px;
+    box-shadow: 3px 3px 5px black;
+    position: relative;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: whitesmoke;
+    margin: 0px 10px;
+    text-decoration: none;
+    border-bottom: 3px solid whitesmoke;
+
+}
+
+#user{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: right;
+
+}
+span{
+    height: 30px;
+    color: whitesmoke;
+    font-weight: 700;
+    position: relative;
+    top:5px;
+    right : 10px;
+    text-align: right;
+    
+
+}
+img{
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+}
+
+#logout{
+    height: 20px;
+    width: 80px;
+    position: relative;
+    right: 10px;
+    padding: 0px 0px 22px 0px;
+}
+
